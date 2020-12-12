@@ -2,7 +2,11 @@
 /*
 * 死锁两个或多个线程执行过程中
 * 因争夺资源造成的一种互相等待的现象
-* 若无外力干涉 那他们都无法推进下去*/
+* 若无外力干涉 那他们都无法推进下去
+*
+* jps命令定额我i进程号 jsp -l
+* jstack 找到死锁产看  jstack xx
+* */
 
 import java.util.concurrent.TimeUnit;
 
